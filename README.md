@@ -19,8 +19,17 @@ Requirements:
 - CellBox
 
 How To:
+1) Construct inputs 
+    1) Gene model
+        1) Perturbations - Light and circadian time inputs from [Puszynska & O'Shea 2017](https://doi.org/10.7554/eLife.23210).
+        2) TF log2FC in gene expression from reference condition (clearday 0.5h) (Log2FC calculated with DESeq2).
+        3) Gene log2FC in gene expression from reference condition (clearday 0.5h) (Log2FC calculated with DESeq2).
+    2) Module model
+        1) Perturbations - Light and circadian time inputs from [Puszynska & O'Shea 2017](https://doi.org/10.7554/eLife.23210).
+        2) TF log2FC gene expression values (Calculated using DESeq2)
+        3) ICA signal averaged for each condition over three replicates.
 
-1) Construct the input gene model and, using ICA, the modulon model. Examples are provided in the Execution_files used for the analysis workflow. 
+2) Load input gene and iModulon models (ICA). Examples are provided in the Execution_files used for the analysis workflow. 
 	1) Modify config files (config.json) to point to the respective file paths, and where values can be edited to tailor the CellBox simulation. Specific parameters include "n_protein_nodes": number of transcription factor, "n_activity_nodes": number of transcription factor + gene/modulon, "n_x": number of nodes in transcription factor + gene/modulon + perturbations,
 	2) For n nodes considered over p perturbations:
 		1) expr_matr.csv (p x n_x matrix) : matrix of expression values, one value for each node (transcription factor, gene/modulon, perturbation node) per each set of perturbation conditions. 
@@ -28,8 +37,8 @@ How To:
 		3) pert_matr.csv (p x n_x matrix): matrix of perturbation values with the same shape as "expr_matr.csv". Zero values for none perturbed values with non-zero values for the perturbation nodes. 
 		4) sample_order.csv (p list) : names for each perturbation (without "," or delimiters), column list where number of lines correspond to the number of perturbation cases considered.
 	
-2) Execute CellBox (example execution Slurm script provided "slurmscript.py" and within the "Execution_files" directory)
-3) Execute analysis workflow:
+3) Execute CellBox (example execution Slurm script provided "slurmscript.py" and within the "Execution_files" directory)
+4) Execute analysis workflow:
 	1) For single time point proteomics data
 	2) Edit file paths in the jupyter notebooks to point to the CellBox output specified in "experiment_id" in config.json  (Analysis/FullPipelineForCellboxOutput_analysis.ipynb)
 	3) Run notebook and edit plotting functions for names and proteomics datas
