@@ -1,0 +1,64 @@
+mi,mi type,homolog name,percent identity,retained name,reason,updated name
+0,Genomic Region,SG_5,63.7,False,non-singlet (Genomic region),GR-1
+1,Enriched,Cytc_oxidase,78.6,True,–,Cytc-oxidase
+2,Uncharacterized,unchar_1,73,True,–,unchar-1
+3,Enriched,iron,71.6,True,–,iron
+4,Enriched,OXPHOS,82.5,True,–,OXPHOS
+5,Singlet,–,–,–,–,SG-1
+6,Enriched,competence,84.1,True,–,competence
+7,Enriched,membrane,73.2,True,–,membrane
+8,Enriched,anL,60.1,True,–,anL
+9,Enriched,Photosystems,58.2,False,Two homolog iMs -> 1 UCSD iM,Photosystems-1
+10,Enriched,ccm-1/sps,"49.7,45.4",False,Soley contains the operon,cmpABCD
+11,Enriched,ccm-2,73.6,True,–,ccm-2
+12,Enriched,oxi_stress_tolerance,74.4,False,shortened,oxi-stress
+13,Enriched,ribosome-1,87.9,True,–,ribosome-1
+14,Singlet,–,–,–,–,SG-2
+15,Singlet,–,–,–,–,SG-3
+16,Singlet,–,–,–,–,SG-4
+17,Singlet,–,–,–,–,SG-5
+18,Singlet,–,–,–,–,SG-6
+19,Uncharacterized,–,–,–,–,unchar-2
+20,Uncharacterized,unchar_4,61.8,False,Enriched,unchar-3
+21,Enriched,NtcA-1,81.9,True,–,NtcA-1
+22,Uncharacterized,unchar_6,86.1,False,Re-ordered,unchar-4
+23,Singlet,–,–,–,–,SG-7
+24,Enriched,HSR,87.7,True,–,HSR
+25,Singlet,–,–,–,–,SG-8
+26,Uncharacterized,unchar_2,83.5,False,–,unchar-5
+27,Enriched,Photosystems,56.9,False,Two homolog iMs -> 1 UCSD iM,Photosystems-2
+28,Uncharacterized,–,–,–,–,unchar-6
+29,Enriched,CysR,80.9,True,–,CysR
+30,Genomic Region,SG_10,66.1,False,non-singlet (Genomic region),GR-2
+31,Singlet,–,–,–,–,SG-9
+32,Enriched,PSII,47.7,True,–,PSII
+33,Enriched,prophage,88,True,–,prophage
+34,Enriched,Biofilm-2,88.9,True,–,Biofilm-2
+35,Enriched,ccm-1,73.1,True,–,ccm-1
+36,Enriched,groELS,67.5,True,–,groELS
+37,Uncharacterized,–,–,–,–,unchar-7
+38,Enriched,RpaC,82,True,–,RpaC
+39,Uncharacterized,–,–,–,–,unchar-8
+40,Enriched,sigA2/rpoD2,78.7,False,shortened,rpoD2
+41,Enriched,phosphate,89.1,True,–,phosphate
+42,Enriched,kaiABC,79.8,True,–,kaiABC
+43,Enriched,sufR,67.2,True,–,sufR
+44,Enriched,IdiB,44,True,–,IdiB
+45,Enriched,RpaB,92.7,True,–,RpaB
+46,Singlet,–,–,–,–,SG-10
+47,Enriched,Biofilm-1,74.5,True,–,Biofilm-1
+48,Singlet,–,–,–,–,SG-11
+49,Genomic Region,–,–,–,–,GR-3
+50,Enriched,RpaA,90.2,True,–,RpaA
+51,Uncharacterized,,,,–,unchar-9
+52,Enriched,NtcA-2,84.9,True,–,NtcA-2
+53,Singlet,–,–,–,–,SG-12
+54,Singlet,–,–,–,–,SG-13
+55,Singlet,–,–,–,–,SG-14
+56,Uncharacterized,–,–,–,–,unchar-10
+57,Uncharacterized,–,–,–,–,unchar-11
+58,Uncharacterized,unchar_7,66.6,False,Re-ordered,unchar-12
+59,Uncharacterized,–,–,–,–,unchar-13
+60,Enriched,phototaxis,56.7,True,–,phototaxis
+61,Uncharacterized,–,–,–,–,unchar-14
+62,Enriched,unchar_3,71.1,False,–,unchar-15

@@ -1,0 +1,573 @@
+,pathway,description
+0,map01100,Metabolic pathways
+1,map01110,Biosynthesis of secondary metabolites
+2,map01120,Microbial metabolism in diverse environments
+3,map01200,Carbon metabolism
+4,map01210,2-Oxocarboxylic acid metabolism
+5,map01212,Fatty acid metabolism
+6,map01230,Biosynthesis of amino acids
+7,map01232,Nucleotide metabolism
+8,map01250,Biosynthesis of nucleotide sugars
+9,map01240,Biosynthesis of cofactors
+10,map01220,Degradation of aromatic compounds
+11,map00010,Glycolysis / Gluconeogenesis
+12,map00020,Citrate cycle (TCA cycle)
+13,map00030,Pentose phosphate pathway
+14,map00040,Pentose and glucuronate interconversions
+15,map00051,Fructose and mannose metabolism
+16,map00052,Galactose metabolism
+17,map00053,Ascorbate and aldarate metabolism
+18,map00500,Starch and sucrose metabolism
+19,map00520,Amino sugar and nucleotide sugar metabolism
+20,map00620,Pyruvate metabolism
+21,map00630,Glyoxylate and dicarboxylate metabolism
+22,map00640,Propanoate metabolism
+23,map00650,Butanoate metabolism
+24,map00660,C5-Branched dibasic acid metabolism
+25,map00562,Inositol phosphate metabolism
+26,map00190,Oxidative phosphorylation
+27,map00195,Photosynthesis
+28,map00196,Photosynthesis - antenna proteins
+29,map00710,Carbon fixation by Calvin cycle
+30,map00720,Other carbon fixation pathways
+31,map00680,Methane metabolism
+32,map00910,Nitrogen metabolism
+33,map00920,Sulfur metabolism
+34,map00061,Fatty acid biosynthesis
+35,map00062,Fatty acid elongation
+36,map00071,Fatty acid degradation
+37,map00073,"Cutin, suberine and wax biosynthesis"
+38,map00074,Mycolic acid biosynthesis
+39,map00100,Steroid biosynthesis
+40,map00120,Primary bile acid biosynthesis
+41,map00121,Secondary bile acid biosynthesis
+42,map00140,Steroid hormone biosynthesis
+43,map00561,Glycerolipid metabolism
+44,map00564,Glycerophospholipid metabolism
+45,map00565,Ether lipid metabolism
+46,map00600,Sphingolipid metabolism
+47,map00590,Arachidonic acid metabolism
+48,map00591,Linoleic acid metabolism
+49,map00592,alpha-Linolenic acid metabolism
+50,map01040,Biosynthesis of unsaturated fatty acids
+51,map00230,Purine metabolism
+52,map00240,Pyrimidine metabolism
+53,map00250,"Alanine, aspartate and glutamate metabolism"
+54,map00260,"Glycine, serine and threonine metabolism"
+55,map00270,Cysteine and methionine metabolism
+56,map00280,"Valine, leucine and isoleucine degradation"
+57,map00290,"Valine, leucine and isoleucine biosynthesis"
+58,map00300,Lysine biosynthesis
+59,map00310,Lysine degradation
+60,map00220,Arginine biosynthesis
+61,map00330,Arginine and proline metabolism
+62,map00340,Histidine metabolism
+63,map00350,Tyrosine metabolism
+64,map00360,Phenylalanine metabolism
+65,map00380,Tryptophan metabolism
+66,map00400,"Phenylalanine, tyrosine and tryptophan biosynthesis"
+67,map00410,beta-Alanine metabolism
+68,map00430,Taurine and hypotaurine metabolism
+69,map00440,Phosphonate and phosphinate metabolism
+70,map00450,Selenocompound metabolism
+71,map00460,Cyanoamino acid metabolism
+72,map00470,D-Amino acid metabolism
+73,map00480,Glutathione metabolism
+74,map00510,N-Glycan biosynthesis
+75,map00513,Various types of N-glycan biosynthesis
+76,map00512,Mucin type O-glycan biosynthesis
+77,map00515,Mannose type O-glycan biosynthesis
+78,map00514,Other types of O-glycan biosynthesis
+79,map00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+80,map00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+81,map00533,Glycosaminoglycan biosynthesis - keratan sulfate
+82,map00531,Glycosaminoglycan degradation
+83,map00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+84,map00601,Glycosphingolipid biosynthesis - lacto and neolacto series
+85,map00603,Glycosphingolipid biosynthesis - globo and isoglobo series
+86,map00604,Glycosphingolipid biosynthesis - ganglio series
+87,map00511,Other glycan degradation
+88,map00540,Lipopolysaccharide biosynthesis
+89,map00542,O-Antigen repeat unit biosynthesis
+90,map00541,O-Antigen nucleotide sugar biosynthesis
+91,map00550,Peptidoglycan biosynthesis
+92,map00552,Teichoic acid biosynthesis
+93,map00571,Lipoarabinomannan (LAM) biosynthesis
+94,map00572,Arabinogalactan biosynthesis - Mycobacterium
+95,map00543,Exopolysaccharide biosynthesis
+96,map00730,Thiamine metabolism
+97,map00740,Riboflavin metabolism
+98,map00750,Vitamin B6 metabolism
+99,map00760,Nicotinate and nicotinamide metabolism
+100,map00770,Pantothenate and CoA biosynthesis
+101,map00780,Biotin metabolism
+102,map00785,Lipoic acid metabolism
+103,map00790,Folate biosynthesis
+104,map00670,One carbon pool by folate
+105,map00830,Retinol metabolism
+106,map00860,Porphyrin metabolism
+107,map00130,Ubiquinone and other terpenoid-quinone biosynthesis
+108,map00900,Terpenoid backbone biosynthesis
+109,map00902,Monoterpenoid biosynthesis
+110,map00909,Sesquiterpenoid and triterpenoid biosynthesis
+111,map00904,Diterpenoid biosynthesis
+112,map00906,Carotenoid biosynthesis
+113,map00905,Brassinosteroid biosynthesis
+114,map00981,Insect hormone biosynthesis
+115,map00908,Zeatin biosynthesis
+116,map00903,Limonene degradation
+117,map00907,"Pinene, camphor and geraniol degradation"
+118,map01052,Type I polyketide structures
+119,map00522,"Biosynthesis of 12-, 14- and 16-membered macrolides"
+120,map01051,Biosynthesis of ansamycins
+121,map01059,Biosynthesis of enediyne antibiotics
+122,map01056,Biosynthesis of type II polyketide backbone
+123,map01057,Biosynthesis of type II polyketide products
+124,map00253,Tetracycline biosynthesis
+125,map00523,Polyketide sugar unit biosynthesis
+126,map01054,Nonribosomal peptide structures
+127,map01053,Biosynthesis of siderophore group nonribosomal peptides
+128,map01055,Biosynthesis of vancomycin group antibiotics
+129,map00940,Phenylpropanoid biosynthesis
+130,map00945,"Stilbenoid, diarylheptanoid and gingerol biosynthesis"
+131,map00941,Flavonoid biosynthesis
+132,map00944,Flavone and flavonol biosynthesis
+133,map00942,Anthocyanin biosynthesis
+134,map00943,Isoflavonoid biosynthesis
+135,map00946,Degradation of flavonoids
+136,map00901,Indole alkaloid biosynthesis
+137,map00403,Indole diterpene alkaloid biosynthesis
+138,map00950,Isoquinoline alkaloid biosynthesis
+139,map00960,"Tropane, piperidine and pyridine alkaloid biosynthesis"
+140,map00996,Biosynthesis of various alkaloids
+141,map00232,Caffeine metabolism
+142,map00965,Betalain biosynthesis
+143,map00966,Glucosinolate biosynthesis
+144,map00402,Benzoxazinoid biosynthesis
+145,map00311,Penicillin and cephalosporin biosynthesis
+146,map00332,Carbapenem biosynthesis
+147,map00261,Monobactam biosynthesis
+148,map00331,Clavulanic acid biosynthesis
+149,map00521,Streptomycin biosynthesis
+150,map00524,"Neomycin, kanamycin and gentamicin biosynthesis"
+151,map00525,Acarbose and validamycin biosynthesis
+152,map00401,Novobiocin biosynthesis
+153,map00404,Staurosporine biosynthesis
+154,map00405,Phenazine biosynthesis
+155,map00333,Prodigiosin biosynthesis
+156,map00254,Aflatoxin biosynthesis
+157,map00998,Biosynthesis of various antibiotics
+158,map00999,Biosynthesis of various plant secondary metabolites
+159,map00997,Biosynthesis of various other secondary metabolites
+160,map00362,Benzoate degradation
+161,map00627,Aminobenzoate degradation
+162,map00364,Fluorobenzoate degradation
+163,map00625,Chloroalkane and chloroalkene degradation
+164,map00361,Chlorocyclohexane and chlorobenzene degradation
+165,map00623,Toluene degradation
+166,map00622,Xylene degradation
+167,map00633,Nitrotoluene degradation
+168,map00642,Ethylbenzene degradation
+169,map00643,Styrene degradation
+170,map00791,Atrazine degradation
+171,map00930,Caprolactam degradation
+172,map00363,Bisphenol degradation
+173,map00621,Dioxin degradation
+174,map00626,Naphthalene degradation
+175,map00624,Polycyclic aromatic hydrocarbon degradation
+176,map00365,Furfural degradation
+177,map00984,Steroid degradation
+178,map00980,Metabolism of xenobiotics by cytochrome P450
+179,map00982,Drug metabolism - cytochrome P450
+180,map00983,Drug metabolism - other enzymes
+181,map01010,Overview of biosynthetic pathways
+182,map01060,Biosynthesis of plant secondary metabolites
+183,map01061,Biosynthesis of phenylpropanoids
+184,map01062,Biosynthesis of terpenoids and steroids
+185,map01063,Biosynthesis of alkaloids derived from shikimate pathway
+186,map01064,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid"
+187,map01065,Biosynthesis of alkaloids derived from histidine and purine
+188,map01066,Biosynthesis of alkaloids derived from terpenoid and polyketide
+189,map01070,Biosynthesis of plant hormones
+190,map03020,RNA polymerase
+191,map03022,Basal transcription factors
+192,map03040,Spliceosome
+193,map03010,Ribosome
+194,map00970,Aminoacyl-tRNA biosynthesis
+195,map03013,Nucleocytoplasmic transport
+196,map03015,mRNA surveillance pathway
+197,map03008,Ribosome biogenesis in eukaryotes
+198,map03060,Protein export
+199,map04141,Protein processing in endoplasmic reticulum
+200,map04130,SNARE interactions in vesicular transport
+201,map04120,Ubiquitin mediated proteolysis
+202,map04122,Sulfur relay system
+203,map03050,Proteasome
+204,map03018,RNA degradation
+205,map03030,DNA replication
+206,map03410,Base excision repair
+207,map03420,Nucleotide excision repair
+208,map03430,Mismatch repair
+209,map03440,Homologous recombination
+210,map03450,Non-homologous end-joining
+211,map03460,Fanconi anemia pathway
+212,map03082,ATP-dependent chromatin remodeling
+213,map03083,Polycomb repressive complex
+214,map03230,Viral genome structure
+215,map03240,Viral replication
+216,map03250,Viral life cycle - HIV-1
+217,map03260,Virion - Human immunodeficiency virus
+218,map03271,Virion - Rotavirus
+219,map03262,Virion - Coronavirus
+220,map03261,Virion - Influenza virus
+221,map03263,Virion - Enterovirus
+222,map03264,Virion - Flavivirus
+223,map03265,"Virion - Ebolavirus, Lyssavirus and Morbillivirus"
+224,map03266,Virion - Herpesvirus
+225,map03268,Virion - Orthopoxvirus
+226,map03267,Virion - Adenovirus
+227,map03259,Virion - Bacteriophages T4 and T7
+228,map03258,Virion - Bacteriophage lambda
+229,map02010,ABC transporters
+230,map02060,Phosphotransferase system (PTS)
+231,map03070,Bacterial secretion system
+232,map02020,Two-component system
+233,map04010,MAPK signaling pathway
+234,map04013,MAPK signaling pathway - fly
+235,map04016,MAPK signaling pathway - plant
+236,map04011,MAPK signaling pathway - yeast
+237,map04012,ErbB signaling pathway
+238,map04014,Ras signaling pathway
+239,map04015,Rap1 signaling pathway
+240,map04310,Wnt signaling pathway
+241,map04330,Notch signaling pathway
+242,map04340,Hedgehog signaling pathway
+243,map04341,Hedgehog signaling pathway - fly
+244,map04350,TGF-beta signaling pathway
+245,map04390,Hippo signaling pathway
+246,map04391,Hippo signaling pathway - fly
+247,map04392,Hippo signaling pathway - multiple species
+248,map04370,VEGF signaling pathway
+249,map04371,Apelin signaling pathway
+250,map04630,JAK-STAT signaling pathway
+251,map04064,NF-kappa B signaling pathway
+252,map04668,TNF signaling pathway
+253,map04066,HIF-1 signaling pathway
+254,map04068,FoxO signaling pathway
+255,map04020,Calcium signaling pathway
+256,map04070,Phosphatidylinositol signaling system
+257,map04072,Phospholipase D signaling pathway
+258,map04071,Sphingolipid signaling pathway
+259,map04024,cAMP signaling pathway
+260,map04022,cGMP-PKG signaling pathway
+261,map04151,PI3K-Akt signaling pathway
+262,map04152,AMPK signaling pathway
+263,map04150,mTOR signaling pathway
+264,map04075,Plant hormone signal transduction
+265,map04080,Neuroactive ligand-receptor interaction
+266,map04060,Cytokine-cytokine receptor interaction
+267,map04061,Viral protein interaction with cytokine and cytokine receptor
+268,map04512,ECM-receptor interaction
+269,map04514,Cell adhesion molecules
+270,map04144,Endocytosis
+271,map04145,Phagosome
+272,map04142,Lysosome
+273,map04146,Peroxisome
+274,map04140,Autophagy - animal
+275,map04138,Autophagy - yeast
+276,map04136,Autophagy - other
+277,map04137,Mitophagy - animal
+278,map04139,Mitophagy - yeast
+279,map04148,Efferocytosis
+280,map04110,Cell cycle
+281,map04111,Cell cycle - yeast
+282,map04112,Cell cycle - Caulobacter
+283,map04113,Meiosis - yeast
+284,map04114,Oocyte meiosis
+285,map04210,Apoptosis
+286,map04214,Apoptosis - fly
+287,map04215,Apoptosis - multiple species
+288,map04216,Ferroptosis
+289,map04217,Necroptosis
+290,map04115,p53 signaling pathway
+291,map04218,Cellular senescence
+292,map04510,Focal adhesion
+293,map04520,Adherens junction
+294,map04530,Tight junction
+295,map04540,Gap junction
+296,map04550,Signaling pathways regulating pluripotency of stem cells
+297,map02024,Quorum sensing
+298,map05111,Biofilm formation - Vibrio cholerae
+299,map02025,Biofilm formation - Pseudomonas aeruginosa
+300,map02026,Biofilm formation - Escherichia coli
+301,map02030,Bacterial chemotaxis
+302,map02040,Flagellar assembly
+303,map04814,Motor proteins
+304,map04820,Cytoskeleton in muscle cells
+305,map04810,Regulation of actin cytoskeleton
+306,map04640,Hematopoietic cell lineage
+307,map04610,Complement and coagulation cascades
+308,map04611,Platelet activation
+309,map04613,Neutrophil extracellular trap formation
+310,map04620,Toll-like receptor signaling pathway
+311,map04624,Toll and Imd signaling pathway
+312,map04621,NOD-like receptor signaling pathway
+313,map04622,RIG-I-like receptor signaling pathway
+314,map04623,Cytosolic DNA-sensing pathway
+315,map04625,C-type lectin receptor signaling pathway
+316,map04650,Natural killer cell mediated cytotoxicity
+317,map04612,Antigen processing and presentation
+318,map04660,T cell receptor signaling pathway
+319,map04658,Th1 and Th2 cell differentiation
+320,map04659,Th17 cell differentiation
+321,map04657,IL-17 signaling pathway
+322,map04662,B cell receptor signaling pathway
+323,map04664,Fc epsilon RI signaling pathway
+324,map04666,Fc gamma R-mediated phagocytosis
+325,map04670,Leukocyte transendothelial migration
+326,map04672,Intestinal immune network for IgA production
+327,map04062,Chemokine signaling pathway
+328,map04911,Insulin secretion
+329,map04910,Insulin signaling pathway
+330,map04922,Glucagon signaling pathway
+331,map04923,Regulation of lipolysis in adipocytes
+332,map04920,Adipocytokine signaling pathway
+333,map03320,PPAR signaling pathway
+334,map04929,GnRH secretion
+335,map04912,GnRH signaling pathway
+336,map04913,Ovarian steroidogenesis
+337,map04915,Estrogen signaling pathway
+338,map04914,Progesterone-mediated oocyte maturation
+339,map04917,Prolactin signaling pathway
+340,map04921,Oxytocin signaling pathway
+341,map04926,Relaxin signaling pathway
+342,map04935,"Growth hormone synthesis, secretion and action"
+343,map04918,Thyroid hormone synthesis
+344,map04919,Thyroid hormone signaling pathway
+345,map04928,"Parathyroid hormone synthesis, secretion and action"
+346,map04916,Melanogenesis
+347,map04924,Renin secretion
+348,map04614,Renin-angiotensin system
+349,map04925,Aldosterone synthesis and secretion
+350,map04927,Cortisol synthesis and secretion
+351,map04260,Cardiac muscle contraction
+352,map04261,Adrenergic signaling in cardiomyocytes
+353,map04270,Vascular smooth muscle contraction
+354,map04970,Salivary secretion
+355,map04971,Gastric acid secretion
+356,map04972,Pancreatic secretion
+357,map04976,Bile secretion
+358,map04973,Carbohydrate digestion and absorption
+359,map04974,Protein digestion and absorption
+360,map04975,Fat digestion and absorption
+361,map04979,Cholesterol metabolism
+362,map04977,Vitamin digestion and absorption
+363,map04980,Cobalamin transport and metabolism
+364,map04978,Mineral absorption
+365,map04962,Vasopressin-regulated water reabsorption
+366,map04960,Aldosterone-regulated sodium reabsorption
+367,map04961,Endocrine and other factor-regulated calcium reabsorption
+368,map04964,Proximal tubule bicarbonate reclamation
+369,map04966,Collecting duct acid secretion
+370,map04724,Glutamatergic synapse
+371,map04727,GABAergic synapse
+372,map04725,Cholinergic synapse
+373,map04728,Dopaminergic synapse
+374,map04726,Serotonergic synapse
+375,map04720,Long-term potentiation
+376,map04730,Long-term depression
+377,map04723,Retrograde endocannabinoid signaling
+378,map04721,Synaptic vesicle cycle
+379,map04722,Neurotrophin signaling pathway
+380,map04744,Phototransduction
+381,map04745,Phototransduction - fly
+382,map04740,Olfactory transduction
+383,map04742,Taste transduction
+384,map04750,Inflammatory mediator regulation of TRP channels
+385,map04320,Dorso-ventral axis formation
+386,map04360,Axon guidance
+387,map04361,Axon regeneration
+388,map04380,Osteoclast differentiation
+389,map04211,Longevity regulating pathway
+390,map04212,Longevity regulating pathway - worm
+391,map04213,Longevity regulating pathway - multiple species
+392,map04710,Circadian rhythm
+393,map04713,Circadian entrainment
+394,map04711,Circadian rhythm - fly
+395,map04712,Circadian rhythm - plant
+396,map04714,Thermogenesis
+397,map04626,Plant-pathogen interaction
+398,map05200,Pathways in cancer
+399,map05202,Transcriptional misregulation in cancer
+400,map05206,MicroRNAs in cancer
+401,map05205,Proteoglycans in cancer
+402,map05204,Chemical carcinogenesis - DNA adducts
+403,map05207,Chemical carcinogenesis - receptor activation
+404,map05208,Chemical carcinogenesis - reactive oxygen species
+405,map05203,Viral carcinogenesis
+406,map05230,Central carbon metabolism in cancer
+407,map05231,Choline metabolism in cancer
+408,map05235,PD-L1 expression and PD-1 checkpoint pathway in cancer
+409,map05210,Colorectal cancer
+410,map05212,Pancreatic cancer
+411,map05225,Hepatocellular carcinoma
+412,map05226,Gastric cancer
+413,map05214,Glioma
+414,map05216,Thyroid cancer
+415,map05221,Acute myeloid leukemia
+416,map05220,Chronic myeloid leukemia
+417,map05217,Basal cell carcinoma
+418,map05218,Melanoma
+419,map05211,Renal cell carcinoma
+420,map05219,Bladder cancer
+421,map05215,Prostate cancer
+422,map05213,Endometrial cancer
+423,map05224,Breast cancer
+424,map05222,Small cell lung cancer
+425,map05223,Non-small cell lung cancer
+426,map05166,Human T-cell leukemia virus 1 infection
+427,map05170,Human immunodeficiency virus 1 infection
+428,map05161,Hepatitis B
+429,map05160,Hepatitis C
+430,map05171,Coronavirus disease - COVID-19
+431,map05164,Influenza A
+432,map05162,Measles
+433,map05168,Herpes simplex virus 1 infection
+434,map05163,Human cytomegalovirus infection
+435,map05167,Kaposi sarcoma-associated herpesvirus infection
+436,map05169,Epstein-Barr virus infection
+437,map05165,Human papillomavirus infection
+438,map05110,Vibrio cholerae infection
+439,map05120,Epithelial cell signaling in Helicobacter pylori infection
+440,map05130,Pathogenic Escherichia coli infection
+441,map05132,Salmonella infection
+442,map05131,Shigellosis
+443,map05135,Yersinia infection
+444,map05133,Pertussis
+445,map05134,Legionellosis
+446,map05150,Staphylococcus aureus infection
+447,map05152,Tuberculosis
+448,map05100,Bacterial invasion of epithelial cells
+449,map05146,Amoebiasis
+450,map05144,Malaria
+451,map05145,Toxoplasmosis
+452,map05140,Leishmaniasis
+453,map05142,Chagas disease
+454,map05143,African trypanosomiasis
+455,map05310,Asthma
+456,map05322,Systemic lupus erythematosus
+457,map05323,Rheumatoid arthritis
+458,map05320,Autoimmune thyroid disease
+459,map05321,Inflammatory bowel disease
+460,map05330,Allograft rejection
+461,map05332,Graft-versus-host disease
+462,map05340,Primary immunodeficiency
+463,map05010,Alzheimer disease
+464,map05012,Parkinson disease
+465,map05014,Amyotrophic lateral sclerosis
+466,map05016,Huntington disease
+467,map05017,Spinocerebellar ataxia
+468,map05020,Prion disease
+469,map05022,Pathways of neurodegeneration - multiple diseases
+470,map05030,Cocaine addiction
+471,map05031,Amphetamine addiction
+472,map05032,Morphine addiction
+473,map05033,Nicotine addiction
+474,map05034,Alcoholism
+475,map05417,Lipid and atherosclerosis
+476,map05418,Fluid shear stress and atherosclerosis
+477,map05410,Hypertrophic cardiomyopathy
+478,map05412,Arrhythmogenic right ventricular cardiomyopathy
+479,map05414,Dilated cardiomyopathy
+480,map05415,Diabetic cardiomyopathy
+481,map05416,Viral myocarditis
+482,map04930,Type II diabetes mellitus
+483,map04940,Type I diabetes mellitus
+484,map04950,Maturity onset diabetes of the young
+485,map04936,Alcoholic liver disease
+486,map04932,Non-alcoholic fatty liver disease
+487,map04931,Insulin resistance
+488,map04933,AGE-RAGE signaling pathway in diabetic complications
+489,map04934,Cushing syndrome
+490,map01501,beta-Lactam resistance
+491,map01502,Vancomycin resistance
+492,map01503,Cationic antimicrobial peptide (CAMP) resistance
+493,map01521,EGFR tyrosine kinase inhibitor resistance
+494,map01524,Platinum drug resistance
+495,map01523,Antifolate resistance
+496,map01522,Endocrine resistance
+497,map07011,Penicillins
+498,map07012,Cephalosporins - parenteral agents
+499,map07013,Cephalosporins - oral agents
+500,map07021,Aminoglycosides
+501,map07019,Tetracyclines
+502,map07020,Macrolides and ketolides
+503,map07014,Quinolones
+504,map07023,Rifamycins
+505,map07026,Antifungal agents
+506,map07044,Antiviral agents
+507,map07053,Anti-HIV agents
+508,map07040,Antineoplastics - alkylating agents
+509,map07041,Antineoplastics - antimetabolic agents
+510,map07042,Antineoplastics - agents from natural products
+511,map07043,Antineoplastics - hormones
+512,map07045,Antineoplastics - protein kinase inhibitors
+513,map07032,Hypnotics
+514,map07030,Anxiolytics
+515,map07033,Anticonvulsants
+516,map07015,Local analgesics
+517,map07039,Opioid analgesics
+518,map07028,Antipsychotics
+519,map07029,Antipsychotics - phenothiazines
+520,map07031,Antipsychotics - butyrophenones
+521,map07027,Antidepressants
+522,map07056,Agents for Alzheimer-type dementia
+523,map07057,Antiparkinsonian agents
+524,map07055,Sulfonamide derivatives - overview
+525,map07016,Sulfonamide derivatives - sulfa drugs
+526,map07017,Sulfonamide derivatives - diuretics
+527,map07018,Sulfonamide derivatives - hypoglycemic agents
+528,map07037,Antiarrhythmic drugs
+529,map07038,Antiulcer drugs
+530,map07046,Immunosuppressive agents
+531,map07047,Osteoporosis drugs
+532,map07048,Antimigraines
+533,map07049,Antithrombosis agents
+534,map07050,Antirheumatics - DMARDs and biological agents
+535,map07051,Antidiabetics
+536,map07052,Antidyslipidemic agents
+537,map07054,Antiglaucoma agents
+538,map07220,Cholinergic and anticholinergic drugs
+539,map07215,alpha-Adrenergic receptor agonists/antagonists
+540,map07214,beta-Adrenergic receptor agonists/antagonists
+541,map07213,Dopamine receptor agonists/antagonists
+542,map07212,Histamine H1 receptor antagonists
+543,map07227,Histamine H2/H3 receptor agonists/antagonists
+544,map07211,Serotonin receptor agonists/antagonists
+545,map07228,Eicosanoid receptor agonists/antagonists
+546,map07224,Opioid receptor agonists/antagonists
+547,map07229,Angiotensin receptor and endothelin receptor antagonists
+548,map07225,Glucocorticoid and mineralocorticoid receptor agonists/antagonists
+549,map07226,"Progesterone, androgen and estrogen receptor agonists/antagonists"
+550,map07223,Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists
+551,map07222,Peroxisome proliferator-activated receptor (PPAR) agonists
+552,map07221,Nicotinic cholinergic receptor antagonists
+553,map07230,GABA-A receptor agonists/antagonists
+554,map07036,Calcium channel blocking drugs
+555,map07231,Sodium channel blocking drugs
+556,map07232,Potassium channel blocking and opening drugs
+557,map07235,N-Methyl-D-aspartic acid (NMDA) receptor antagonists
+558,map07233,Ion transporter inhibitors
+559,map07234,Neurotransmitter transporter inhibitors
+560,map07216,Catecholamine transferase inhibitors
+561,map07219,Cyclooxygenase inhibitors
+562,map07024,HMG-CoA reductase inhibitors
+563,map07217,Renin-angiotensin system inhibitors
+564,map07218,HIV protease inhibitors
+565,map07025,Quinolines
+566,map07034,Eicosanoids
+567,map07035,Prostaglandins
+568,map07110,Benzoic acid family
+569,map07112,"1,2-Diphenyl substitution family"
+570,map07114,Naphthalene family
+571,map07117,Benzodiazepine family
