@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cellbox
+Version: 0.3.2
+Summary: A mechine learning framework with a mathematical core of differential equations to train network models on perturbation-response data
+Home-page: https://github.com/dfci/CellBox
+Author: Bo Yuan, Judy Shen, Augustin Luna
+Author-email: boyuan@g.harvard.edu, c_shen@g.harvard.edu, augustin_luna@hms.harvard.edu
+Keywords: Scientific machine learning,sciML,perturbation biology,interpretability
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: LGPL
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CellBox
+This is CellBox scripts developed in Sander lab.
+
+Maintained by Bo Yuan, Judy Shen, and Augustin Luna.
+
+If you want to discuss the usage or to report a bug, please use the 'Issues' function here on GitHub.
+
+If you find CellBox useful for your research, please consider citing the corresponding publication.
+bioRxiv: [link](https://www.biorxiv.org/content/10.1101/746842v3)
+
+For more information, please find our contact information [here](https://www.sanderlab.org/#/).
