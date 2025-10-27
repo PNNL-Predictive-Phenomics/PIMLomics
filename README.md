@@ -23,7 +23,7 @@ How To:
     1) Gene model
         1) Perturbations - Light and circadian time inputs from [Puszynska & O'Shea 2017](https://doi.org/10.7554/eLife.23210).
         2) TF log2FC in gene expression from reference condition (clearday 0.5h) (Log2FC calculated with DESeq2).
-        3) Gene log2FC in gene expression from reference condition (clearday 0.5h) (Log2FC calculated with DESeq2).
+        3) Subset of circadian genes from [Markson et al 2013](https://doi.org/10.1016/j.cell.2013.11.005). Gene log2FC in gene expression from reference condition (clearday 0.5h) (Log2FC calculated with DESeq2).
     2) Module model
         1) Perturbations - Light and circadian time inputs from [Puszynska & O'Shea 2017](https://doi.org/10.7554/eLife.23210).
         2) TF log2FC gene expression values (Calculated using DESeq2)
