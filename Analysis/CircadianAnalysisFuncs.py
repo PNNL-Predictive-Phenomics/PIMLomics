@@ -579,14 +579,10 @@ def FromTrialDirectoryProduceNetwork(resultsDir,tDir):
     statistics['target_gene'] = statistics['target'].str.strip(r"TF_|gene_")
     statistics['t_value_abs'] = abs(statistics['t_value'])
 
-    TRN = pd.read_csv("TRN_complete.csv", index_col=0)
+    TRN = pd.read_csv("../Data/annotation/TRN_complete.csv", index_col=0)
 
-    metadata = pd.read_csv('Metadata_Perturbation_Passing_QC.csv', index_col=0)
+    metadata = pd.read_csv('../Data/metadata/Metadata_Perturbation_Passing_QC.csv', index_col=0)
     metadata.rename(columns={"Project_tag":"project", "Condition":"condition"}, inplace=True)
-
-    ann = pd.read_csv("Selongatus_PCC7942_ref_tfs.csv")
-
-    regs = pd.read_csv("TRN_complete.csv", index_col=0)
 
     statistics_TRN = statistics.merge(TRN, left_on=['effector_gene', 'target_gene'], 
                                       right_on=['regulatoryGene', 'targetGene'], how='left')
