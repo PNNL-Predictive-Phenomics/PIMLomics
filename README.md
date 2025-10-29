@@ -9,9 +9,9 @@ PIMLomics utilizes the CellBox PIML algorithm to build de novo kinetic regulator
 Key Features:
 
 - Curated datasets after quality control for data-driven de novo modeling under perturbation (for example, light)
-- Dimensional reduction of gene expressions
-- Physics-informed Machine Learning analysis of multiomics data.
-- Plotting and analysis of protein interaction networks.
+- Dimensional reduction of gene expressions over diel cycle
+- Physics-informed Machine Learning from data-driven models
+- Plotting and analysis of regulatory networks with coorelative experimental designs involving proteomics and redox proteomics
 
 Use Cases:
 
