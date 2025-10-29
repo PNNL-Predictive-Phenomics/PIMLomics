@@ -8,6 +8,8 @@ PIMLomics utilizes the CellBox PIML algorithm to model protein and transcription
 
 Key Features:
 
+- Curated datasets after quality control for data-driven de novo modeling under stimuli perturbation
+- Dimensional reduction of gene expressions
 - Physics-informed Machine Learning analysis of multiomics data.
 - Plotting and analysis of protein interaction networks.
 
