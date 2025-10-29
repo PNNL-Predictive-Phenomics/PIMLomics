@@ -17,6 +17,7 @@ PIMLomics uses the Physics-informed Machine Learning package CellBox to guide in
 
 Requirements:
 - CellBox
+- pymodulon
 
 How To:
 1) Construct inputs 
