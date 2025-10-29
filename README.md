@@ -15,11 +15,13 @@ Key Features:
 
 Use Cases:
 
-PIMLomics uses the Physics-informed Machine Learning package CellBox to guide investigations into complex protein interactions influenced by cell responses to probing perturbations.
+PIMLomics provides interpretable de novo models for inferring gene expression dynamics from Synechococcus elongatus over diel cycles and using redox proteome analysis to distinguish immediate light-responsive elements from circadian-regulated processes in carbon metabolism pathways.
 
 Requirements:
 - CellBox
 - pymodulon
+- Gene expression database
+- Redox and proteome data
 
 How To:
 1) Construct inputs 
