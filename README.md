@@ -1,29 +1,50 @@
 # PIMLomics
 
-Description:
+### Description:
 
 **PIMLomics** implements a physics-informed machine learning (PIML), data-driven framework (CellBox) to infer regulatory proteins in cyanobacterial metabolic networks under system perturbations. PIMLomics is a workflow where the gene expression data was curated with quality control and was applied with dimensional reduction (Independent Component Analysis with pymodulon) algorithms to build a dynamic de novo network. The de novo network is a directed graph that reflects the causal relationship in the propagation of gene expression over diel cycle under stimuli to the source of the perturbation (light). With a correlative experiment under illumination perturbation involving both global proteome and redox proteome analysis, the cross-correlation analysis with the de novo workflow characterized the gene products that undergo thiol redox post-translational modifications while the change over its protein abundance is insignificant. Designed for perturbation biology approaches, the workflow is adaptable for other organisms with available multi-omics data, providing a versatile tool for profiling metabolic processes and regulatory pathways in complex biological systems.
 
 PIMLomics utilizes the CellBox PIML algorithm to build de novo kinetic regulatory network with learned from known protein and transcription factor interactions through an interaction-decay ordinary differential equation. Light-induced perturbations cause changes in protein and transcription factor counts, which decay back to steady-state values. This decay is modeled by combining single-protein decay rates with interactions within a network of proteins and transcription factors. The workflow optimizes equation parameters, such as the interaction matrix, to best fit experimental data. It analyzes both a full gene/protein model and a reduced model, using Independent Component Analysis (ICA) to cluster genes into modulons in an iterative loop until the model demonstrated the evidence of learning. PIMLomics then identifies significant protein and transcription factor interactions by comparing inferred parameters with measured abundance and redox proteomics data.
 
-Key Features:
+### Key Features:
 
 - Curated datasets after quality control for data-driven de novo modeling under perturbation (for example, light)
 - Dimensional reduction of gene expressions over diel cycle
 - Physics-informed Machine Learning from data-driven models
 - Plotting and analysis of regulatory networks with coorelative experimental designs involving proteomics and redox proteomics
 
-Use Cases:
+### Use Cases:
 
 PIMLomics provides interpretable de novo models for inferring gene expression dynamics from Synechococcus elongatus over diel cycles and using redox proteome analysis to distinguish immediate light-responsive elements from circadian-regulated processes in carbon metabolism pathways.
 
-Requirements:
+### Requirements:
 - CellBox
 - pymodulon
 - Gene expression database
 - Redox and proteome data
 
-How To:
+## Gene Expression Dataset:  
+RNA-seq datasets were collected from the NCBI SRA database. In total the dataset is composed of __330 samples__, __176 conditions__ collected across __14 projects__.
+
+### Quality control (QC)
+QC is adapted from the [iModulonMiner](https://github.com/SBRG/iModulonMiner/tree/main) workflow ([Sastry et al., 2024](https://doi.org/10.1371/journal.pcbi.1012546)), with RNA-seq sample filtering determined by:
+- total number of reads (sample > 1e-5)
+- identification of outlier samples during global sample correlation
+- condition correlation:
+  - replicate correlation (r > 0.9)
+  - time-series neighbor correlation (r > 0.9)
+
+__To see which samples passed QC:__   
+[passing QC metadata file](Data/metadata/Metadata_Perturbation_Passing_QC.csv)
+
+## Learning gene set modules (iModulon):
+Independently modulated gene sets (iModulons) were identified using independent component analysis (ICA), a blind signal separation technique that decomposes a matrix of logTPM-transformed gene expression values (centered against a reference condition) into statistically independent transcriptional modules and their associated regulatory activities across experimental conditions.
+
+The optimal number of independent components (ICs) — corresponding to the number of iModulons — was determined using the optICA algorithm ([McConn et al., 2021](https://doi.org/10.1186/s12859-021-04497-7)).
+
+Genes were assigned to iModulons based on a D’Agostino threshold applied to the gene weight distribution of each component ([Sastry et al., 2019](https://doi.org/10.1038/s41467-019-13483-w)), referencing a [known transcriptional regulatory network](Data/annotation/TRN_complete.csv) for *S. elongatus* PCC 7942. Thresholding and enrichment analyses were performed using the [PyModulon](https://pymodulon.readthedocs.io/en/latest/) Python package.
+
+## Workflow:
 1) Construct inputs 
     1) Gene model
         1) Perturbations - Light and circadian time inputs from [Puszynska & O'Shea 2017](https://doi.org/10.7554/eLife.23210).
