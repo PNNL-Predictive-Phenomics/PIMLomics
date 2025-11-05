@@ -73,7 +73,7 @@ Genes were assigned to iModulons based on a D’Agostino threshold applied to th
 
 ## Citation
 
-Johnson, C. G., Johnson, Z., Mackey, L. S., Li, X., Sadler, N. C., Zhang, T., ... & Cheung, M. S. (2025). Multi-Omics Reveals Temporal Scales of Carbon Metabolism in Synechococcus Elongatus PCC 7942 Under Light Disturbance. PRX Life, 3(3), 033017.
+Johnson*, C. G., Johnson*, Z., Mackey*, L. S., Li, X., Sadler, N. C., Zhang, T., Qian, W.J., Bohutskyi, P., Feng#, S. & Cheung#, M. S. (2025). Multi-Omics Reveals Temporal Scales of Carbon Metabolism in Synechococcus Elongatus PCC 7942 Under Light Disturbance. PRX Life, 3(3), 033017.
 
 ```
 @article{l2dp-kw2t,
